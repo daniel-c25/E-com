@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: E-Com
+  datasource:
+    url: jdbc:mysql://localhost:3306/e-com
+    username: root
+    password: 1234
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+    show-sql: true
