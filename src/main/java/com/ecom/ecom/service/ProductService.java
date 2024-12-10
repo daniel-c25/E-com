@@ -1,10 +1,12 @@
 package com.ecom.ecom.service;
 
+import org.springframework.stereotype.Service;
 import org.springframework.web.bind.annotation.GetMapping;
 
 import com.ecom.ecom.entity.Product;
 import com.ecom.ecom.repository.ProductRepository;
 
+@Service
 public class ProductService {
 
 	private final ProductRepository productRepository;
